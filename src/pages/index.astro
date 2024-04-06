@@ -1,0 +1,75 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { buttonVariants } from '@/components/ui/button'
+
+import {PreFace, Begin} from '@/components/odysseycard'
+---
+
+<BaseLayout
+  title="Odyssey - PandeAkshat"
+  description="Odyssey Website - "
+>
+  <section class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+    <div class="flex max-w-[980px] flex-col items-start gap-2">
+      <h1
+        class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl"
+      >
+        Odyssey by Akshat Pande.<br class="hidden sm:inline" />
+      </h1> <br />
+      <p class="text-lg text-muted-foreground">
+        A new journey, no schedule, no consistency, no plan. 
+        <br />
+        Lesson, milestones, obstacles, celebrations, events, memories, and love.
+        <br />
+        Carved in memory, and in isolation, yet not. <br />Poetry, stories, quotes, and images to depict it all. <br /> <br />
+      </p>
+      <br />
+
+      <div class="flex-container">
+        <div class="flex-item"><PreFace client:load/> </div>
+        <div class="flex-item"><Begin client:load/></div>
+        <div class="flex-item"></div>
+      </div>
+
+  
+      
+    </div>
+    <div class="flex gap-4">
+      <a
+        href="https://medium.com/@pandeakshat"
+        target="_blank"
+        rel="noreferrer"
+        class={buttonVariants()}
+      >
+        Medium
+      </a>
+      <a
+        href="https://pandeakshat.com"
+        target="_blank"
+        rel="noreferrer"
+        class={buttonVariants({ variant: 'outline' })}
+      >
+        Website
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+
+<style>
+  .flex-container {
+  display: flex;
+  justify-content: space-between; /* Items are evenly distributed in the line */
+}
+
+.flex-item {
+  flex: 1; /* Each item takes up equal space */
+  padding: 20px;
+  margin-right: 20px; /* Margin between items */
+}
+
+.flex-item:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+</style>
