@@ -164,7 +164,7 @@ Thank you, myself.
         <CardContent>
             
             <div className="grid w-full items-center gap-4">
-            <img src="odyssey_thebeginning.webp"></img>
+            <img src="chapter-1.png"></img>
             <Dialog>
                 <DialogTrigger asChild>
                     <Button variant="outline">Read</Button>
