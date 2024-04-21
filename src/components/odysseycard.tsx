@@ -216,7 +216,78 @@ Thank you.<br /><br />
   }
  
   
-  
+  export function Research() {
+    return (
+      <Card className="w-[350px]">
+        <CardHeader>
+          <CardTitle>Chapter 1.1: Research </CardTitle>
+          <CardDescription>Odyssey - Akshat Pande </CardDescription>
+        </CardHeader>
+        <CardContent>
+            
+            <div className="grid w-full items-center gap-4">
+            <img src="odyssey_research.png"></img>
+            <Dialog>
+                <DialogTrigger asChild>
+                    <Button variant="outline">Read</Button>
+                </DialogTrigger>
+                <DialogContent className="">
+                    <DialogHeader>
+                        <DialogTitle>Chapter 1.1: Research</DialogTitle>
+                        <DialogDescription>
+                            Odyssey - Akshat Pande
+                        </DialogDescription>
+                    </DialogHeader>
+                    <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                    I am back, at some point I started writing in third person and realised that I am trying to escape something, using we instead of I, at some point, I started considering myself always a part of something else when I am writing and that  is a bit creepy, I cant even explain properly how many times even during this small paragraph my first thought was starting it with we. I am going to work on it though, it is a new beginning after an end. 
+<br /><br />
+So what is this about? Why is this about? <br /><br />
+After a long conversation with myself and listening to a friend share their experience, I realized that maybe in my current situation, I am deemed unforgivable and that is okay, I have asked for forgiveness and I have asked for trust, for a chance, and I have asked and apologized enough times, I have been pushed away, and I have been told multiple times how worse I am compared to other people. I am going to go back where I was a dead man with a heart beat, cruelly logical and still human but deliberately, and instinctually trustworthy with distanced involvement.
+<br /><br />
+Hence, today I will work on two different things. one is resolution or a vow, it is to respect myself and her, I do not understand and relate to her situation, and she cannot understand everything I am going through either, which is okay. I attempted communication and I was pushed way, so that is okay, if the only two responses you get for a dozen or more times is I don't know and leave me alone then at some time you just let go. That is one, a vow to respect her and myself and stay way. 
+<br /><br />
+Second, is do a proper research, I know for a fact that I am not going to be able to remember the previous content with the next one for Odyssey, as things keep happening, I will write but I will not able to make a flow out of it as things are broken into events and experiences in my life. So, I am not going to deal with it, I am going to focus on writing and just learning depending on events and experiences and work through a research based strategy for the next few days. Finally, I am going to figure out the flow in the end, it would be extra work however it would be good practice to work on and improve my writing.
+<br /><br />
+Now, the introduction for this section is over, we get to the main objective of this checkpoint, Research. A very basic research on redefine life gave me this actionable steps -
+1. Self Reflection & Assessment -<br />
+	-  Identify Dissatisfaction<br />
+	-  Examine Your Values<br />
+	-  Explore Your Passions<br /><br />
+2. Goal-Setting and Vision Creation - <br />
+	-  Define Your Ideal Life<br />
+	-  Set SMART Goals<br />
+	-  Visualize Your Future<br /><br />
+3. Mindset Shifts -<br />
+	-  Embrace Change<br />
+	- Practice Self-Compassion<br />
+	- Challenge Limiting Beliefs<br /><br />
+4. Taking Action -<br />
+	-  Build New Skills<br />
+	- Create New Habits<br />
+	- Network Strategically<br /><br />
+5. Continual Evaluation and Refinement -<br />
+	- Regularly Assess Progress<br />
+	- Be Adaptable<br />
+	- Embrace the Journey<br /><br />
+Important Reminders -<br />
+- Redefining your life is a personal journey.<br />
+- A support system can be invaluable.<br />
+- Change doesn't happen overnight, stay persistent!<br />
+
+
+
+      </ScrollArea>
+ 
+                    </DialogContent>
+                </Dialog>
+                </div>
+        </CardContent>
+        <CardFooter className="flex justify-between">
+          <a href="https://medium.com/@pandeakshat/chapter-1-1-research-e480093d8301" target="_blank"> <Button>Link</Button> </a>
+        </CardFooter>
+      </Card>
+    )
+  }
     //   <ScrollArea className="h-343 w-777 rounded-md border">
     //     <div className="p-4">
     //     </div>
