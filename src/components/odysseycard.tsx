@@ -288,6 +288,58 @@ Important Reminders -<br />
       </Card>
     )
   }
+
+
+
+  export function SelfAssess() {
+    return (
+      <Card className="w-[350px]">
+        <CardHeader>
+          <CardTitle>Chapter 1.2: Self Assessment & Reflection </CardTitle>
+          <CardDescription>Odyssey - Akshat Pande </CardDescription>
+        </CardHeader>
+        <CardContent>
+            
+            <div className="grid w-full items-center gap-4">
+            <img src="odyssey_assess.png"></img>
+            <Dialog>
+                <DialogTrigger asChild>
+                    <Button variant="outline">Read</Button>
+                </DialogTrigger>
+                <DialogContent className="">
+                    <DialogHeader>
+                        <DialogTitle>Chapter 1.2: Self Assessment & Reflection</DialogTitle>
+                        <DialogDescription>
+                            Odyssey - Akshat Pande
+                        </DialogDescription>
+                    </DialogHeader>
+                    <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                    Structure on its own is meaningless, an empty building serves no purpose, and an algorithm that's never used is never useful. So, we will go through the structure and our research and write about it. Step by step, every single point and outline our thought process and our experience on the same.
+                    <br /><br />
+Starting off with self reflection and assessment, to realise where I stand, who I am right now, what am I going through and just keep referencing the past and keep it till today, not trying to figure out where it goes, no projection, a self reflection is always just a tiny bit behind your current moment, so let's start with it.
+<br /><br />
+The first part of that is, identifying dissatisfaction, and it makes literal sense, there should be a reason for change while it could be through external factors or it can be due to internal struggles or a mixture of both, depending on how we generally interact with our existence and surroundings and how we hope to do it. For me, I am lost and aimless in general, I have not had a goal or passion for a long time, even though I'm good at a lot of things and I am quick to learn, I do get lost in a month or so, because I achieve those short term requirements in that timeframe. A best friend of mine said she's into men who are driven and have a goal and it makes sense to me but that's when I questioned myself, where does my drive go? What do I actually want in life? Still haven't found it but that's one factor of dissatisfaction, I'm aimless and lost, and that's okay. Another one in similar is that I'm not able to evaluate my worth, it led to other issues with self image, self worth and people pleasing, while I go through a lot at times the one thing I find the most annoying for myself to myself is I forgive others easily, no matter what they do and how they are, I just let go of the situation and move on, and just understand and sympathise and just go towards the next one. While it's a good quality in some regards as I don't hold onto grudges and let it affect my life continuously, at the same time, i need boundaries. One more factor is relationship, I'm single and I don't like being that, I love having a companion in life as it helps with two of the other factors, I can outsource my goals to theirs and just work to be able to match up. Another one would be self image issues, companion help with that as they'll appreciate me and I won't have to figure that part out as I'll spend most of my time with my person and finally they'll protect me too. Hehe, anyway, i want to become more attractive because recently it feels nobody wants me or nobody wants to deal with me and i am a plague they have to avoid, and i hope it's not that and it's just my mind and pessimism trying to get away from it. However, that's still something I need to work on, I need to do things to make these factors less apparent, as I think, Hormozi said, if you're doubting your own worth then act and build yourself and surround with undeniable proofs as why those things are not what they are. At the same time, work on my perceptions. That's three dissatisfaction that I could come up with on the top of my head, that means these thoughts are consistent inside my mind, they exist perpetually and are going round and round and that's not good for my mental health, so another dissatisfaction, 4 in total.
+<br /><br />
+Let's part of self assessment and reflection is examine your values. I have to understand what it means by values first, just so it's clear, for me, values are just some guidelines I hold to be true, a way of living or thinking that makes sense to me and I wish for the world and society to be in a similar manner, a simple one to start with is growth, I don't know when and how I instilled this value into my being, however after that, it's easier to live, on a comparative basis. Growth is just change but with improvement, a bit more every day and every moment in a way preferred to oneself. Another value of mine is to trust on instinct, it's always better to trust and regret rather than judge people from the get to, there are exceptions ofcourse and also you don't trust people with everything, don't be dumb about it but at the same time, don't think everyone has a negative or pessimistic motive behind their actions and start with thinking they are good in general, it makes life easier, atleast it has for me, or I've just been lucky and that's good too. Next value would be to help others with whatever you're capable of and not everything they need or everything you deem them worthy of, don't control what you can do based on your preferences or don't overdo or over commit to solve problems entirely, I've made that mistake before. However, I do like helping everyone, the most that I can, and it feels good at most times.
+I do think that's most of my values that I live with, there are more values that I find good and want to incorporate them on a regular basis, however they are not a part of me right now, so waiting and working on it.
+<br /><br />
+The last part of self reflection and assessment according to the given framework is explore your passions, things that you find fulfilling or what gives you a flow state, understand the reasoning behind it and what it accomplishes for you. As an example, everyone I know has been in a flow state Doom scrolling social media, while still a flow state, it's not the most helpful and growth oriented activity for most individuals, it's not as rewarding either.
+<br /><br />
+A growing passion maybe? Not sure, I have consulted and coached on temporary basis for friends for short term issues but haven't researched or trained in either so not really sure about it. However, I'll discuss some of my own passions that I've dealt with before, the primary passion I have is writing, it's a very simple activity but it assists me to outline my thoughts in a structured manner, it does help in expressing and improves language and grammar of th same. I'm passionate about gaming also, exploring campaigns, competing against other people and winning sometimes, playing with friends and vibing, there's not a lot to worry about. However it does consume a lot of time and it's best features involve making isolated groups from a larger group. 
+<br /><br />
+
+      </ScrollArea>
+ 
+                    </DialogContent>
+                </Dialog>
+                </div>
+        </CardContent>
+        <CardFooter className="flex justify-between">
+          <a href="https://medium.com/@pandeakshat/chapter-1-1-research-e480093d8301" target="_blank"> <Button>Link</Button> </a>
+        </CardFooter>
+      </Card>
+    )
+  }
     //   <ScrollArea className="h-343 w-777 rounded-md border">
     //     <div className="p-4">
     //     </div>
