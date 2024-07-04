@@ -8,16 +8,6 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
-
 import {
     Dialog,
     DialogContent,
@@ -68,8 +58,9 @@ Thank you, myself.
                     </DialogContent>
                 </Dialog>
                 </div>
+                
         </CardContent>
-        <CardFooter className="flex justify-between">
+        <CardFooter className="flex justify-center">
           <a href="https://medium.com/@pandeakshat/a-new-journey-odyssey-7d591afc95ab" target="_blank"> <Button>Link</Button> </a>
         </CardFooter>
       </Card>
@@ -145,7 +136,7 @@ Thank you, myself.
                 </Dialog>
                 </div>
         </CardContent>
-        <CardFooter className="flex justify-between">
+        <CardFooter className="flex justify-center">
           <a href="https://medium.com/@pandeakshat/odyssey-the-beginning-052dbe723967" target="_blank"> <Button>Link</Button> </a>
         </CardFooter>
       </Card>
@@ -208,7 +199,7 @@ Thank you.<br /><br />
                 </Dialog>
                 </div>
         </CardContent>
-        <CardFooter className="flex justify-between">
+        <CardFooter className="flex justify-center">
           <a href="https://medium.com/@pandeakshat/odyssey-the-beginning-052dbe723967" target="_blank"> <Button>Link</Button> </a>
         </CardFooter>
       </Card>
@@ -282,14 +273,12 @@ Important Reminders -<br />
                 </Dialog>
                 </div>
         </CardContent>
-        <CardFooter className="flex justify-between">
+        <CardFooter className="flex justify-center">
           <a href="https://medium.com/@pandeakshat/chapter-1-1-research-e480093d8301" target="_blank"> <Button>Link</Button> </a>
         </CardFooter>
       </Card>
     )
   }
-
-
 
   export function SelfAssess() {
     return (
@@ -334,7 +323,7 @@ A growing passion maybe? Not sure, I have consulted and coached on temporary bas
                 </Dialog>
                 </div>
         </CardContent>
-        <CardFooter className="flex justify-between">
+        <CardFooter className="flex justify-center">
           <a href="https://medium.com/@pandeakshat/chapter-1-1-research-e480093d8301" target="_blank"> <Button>Link</Button> </a>
         </CardFooter>
       </Card>
@@ -374,20 +363,65 @@ A growing passion maybe? Not sure, I have consulted and coached on temporary bas
 	2. Set SMART Goals<br />
 	3. Visualize Your Future<br />
   <br />
-The second stage of this research is goal setting and vision creation. As going back to my childhood, the most common statement I have heard is to focus on a goal and go towards it and everything will work out accordingly. While with my ADHD that I just found out, it makes sense that it was difficult for me to stick to one goal and it kept changing overtime and over life, even though I understood the importance and how essential it is, it was difficult to process the same. Moreover, due to my self worth issues, I have never seen or dreamt of a better life, like I do want it to get better, I will work for it to get better but there is no end goal for me to aim for, there is no way for me to know what ideal looks like, I can adapt to pretty much anything and everything so everything becomes ideal, however I want to focus on the opposite, A way to figure out what is not possible and what is not acceptable, and maybe refuse to struggle a bit and not enjoy it. I am not too sure about it, I do love chaos becomes it makes thing simple and I have just let my demons take over, as there is no point in holding them back anymore, I dont know how I will live from now on. I just know the key to calm these demons is out there, and maybe one day it will be alright, or i will live like this till the day I die, neither of it is an issue, I adapt either way, I hope and wish for one but I will survive somehow anyway. 
-<br /><br />
+  The second stage of this research is goal setting and vision creation. As going back to my childhood, the most common statement I have heard is to focus on a goal and go towards it and everything will work out accordingly. While with my ADHD that I just found out, it makes sense that it was difficult for me to stick to one goal and it kept changing overtime and over life, even though I understood the importance and how essential it is, it was difficult to process the same. Moreover, due to my self worth issues, I have never seen or dreamt of a better life, like I do want it to get better, I will work for it to get better but there is no end goal for me to aim for, there is no way for me to know what ideal looks like, I can adapt to pretty much anything and everything so everything becomes ideal, however I want to focus on the opposite, A way to figure out what is not possible and what is not acceptable, and maybe refuse to struggle a bit and not enjoy it. I am not too sure about it, I do love chaos becomes it makes thing simple and I have just let my demons take over, as there is no point in holding them back anymore, I dont know how I will live from now on. I just know the key to calm these demons is out there, and maybe one day it will be alright, or i will live like this till the day I die, neither of it is an issue, I adapt either way, I hope and wish for one but I will survive somehow anyway.
+  <br /><br />
 So, the first part of this is define your idea life. To start it off, it should be remote work, maybe my own business, or a really good job, not sure exactly how to pan it out but it would be a way that I can travel the entire world and enjoy life and try new things, meet new people, talk to so many and just enjoy. I like playing games and hanging out with the boys so would love that too, just being able to spend time with them and take my car out and drive around to a Mcdonalds near midnight and just keep going and have fun. A lot of it revolves around freedom, financial, physical, emotional, and more. So, that is something I can look forward to, try to look and yearn for freedom and take actions to attain it, I will apply for better and more remote jobs from today, make another proper attempt and redefining my life, we have a lot of projects that we are working on and that could assist with the future that i need to make, I can always run a business with myself in this. However, it is difficult for me to define and imagine what ideal is, but meditation does help so we will train in that and try to refine my thoughts to focus on visualizing how a day looks like when I have attained all that is possible. The ideal life does not require to be grandiose in any form, people have different dreams and mine is relatively simple and bleak but it makes me happy, so that is enough, ideal life should be happy for the least.
 <br /><br />
 The second part is set SMART goals. I had to google this for the full form, and it is just defined as Specific, Measurable, Achievable, Relevant, and Time Bound. It does seem a pretty reasonable method to define goals, a specific goal would make it easier for you to decide your end state, the measurable part is to define progress and can keep you motivated and on the pathway as you improve over time, achievable is a no-brainer as it should be able to be completed to be a proper reasonable goal, the relevant part is more subjective because it would depend on the person right? I dont think there is a global standard for relevancy and even if there is, it would be difficult to conform to everyone's opinion, so maybe relevant to the individual and his requirements/ beliefs. and the final is time bound, as we have a few behaviour laws regarding the importance of deadlines. I forgot the name if it was Murphy, or someone else who outlined that your work would spread out based on your deadline, which has stood true for me not for years now. However it does make proper sense to me. Coming towards setting SMART goals, means you have to brainstorm goals while keeping this specific attributes in line, the best way to do it is make an app for it, and that is what we will do, easy.
 <br /><br />
-Except making the app for goal setting, which is a goal on its own, we have to figure out some simpler ones that are continous over time, better health and fitness, better financial well-being and more social and close life with people around me.
+Except making the app for goal setting, which is a goal on its own, we have to figure out some simpler ones that are continuous over time, better health and fitness, better financial well-being and more social and close life with people around me.
 <br /><br />
 Moving forward, the worst part of this stage is visualizing life and that would require immense focus and motivation at the same time. With my ADHD and difficult to keep my mind on one topic or do one thing at a time anyway, it is difficult to visualize a better life, adding on with my negligible self worth, and just growth mindset which goes with iterative changes make it more difficult over time to focus on things like visualization. Now, I do want to get better at that and use flow state more often, as I have had experiences before and it could deem useful for my goals and more.
 <br /><br />
 So, the actionable steps for this stage is to learn and practice meditation, it would be easier to visualize and then we work on the application to solve our own problem for goal setting and also turn it into a goal itself as a software product, I will use different kinds of protocols over the SMART one but it is reasonable to use all of it. Finally, I am not sure what my ideal life is right now, while freedom is the theme for it, we have to do a lot to get to a point where it becomes clearer.
 <br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="https://medium.com/@pandeakshat/odyssey-chapter-1-3-goal-setting-vision-creation-4e8cd6568b63" target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
 
 
+
+
+
+
+
+
+
+
+
+    export function Example() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle> </CardTitle>
+            <CardDescription> </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src=" "></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle> </DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      
   
         </ScrollArea>
    
@@ -395,8 +429,8 @@ So, the actionable steps for this stage is to learn and practice meditation, it 
                   </Dialog>
                   </div>
           </CardContent>
-          <CardFooter className="flex justify-between">
-            <a href="https://medium.com/@pandeakshat/odyssey-chapter-1-3-goal-setting-vision-creation-4e8cd6568b63" target="_blank"> <Button>Link</Button> </a>
+          <CardFooter className="flex justify-center">
+            <a href="/ " target="_blank"> <Button>Link</Button> </a>
           </CardFooter>
         </Card>
       )

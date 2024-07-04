@@ -10,7 +10,7 @@ import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize} from '@/com
   description="Odyssey Website - "
 >
   <section class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-    <div class="flex max-w-[980px] flex-col items-start gap-2">
+    <div class="flex flex-col items-start gap-2">
       <h1
         class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl"
       >
@@ -29,8 +29,6 @@ import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize} from '@/com
         <div class="flex-item"><PreFace client:load/> </div>
         <div class="flex-item"><Begin client:load/></div>
         <div class="flex-item"><Chapterone client:load/></div>
-      </div>
-      <div class="flex-container">
         <div class="flex-item"><Research client:load/></div>
         <div class="flex-item"><SelfAssess client:load/></div>  
         <div class="flex-item"><Visualize client:load /></div>
@@ -60,17 +58,24 @@ import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize} from '@/com
   </section>
 </BaseLayout>
 
-
 <style>
   .flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; /* Items are evenly distributed in the line */
 }
 
 .flex-item {
-  flex: 1; /* Each item takes up equal space */
-  padding: 20px;
-  margin-right: 20px; /* Margin between items */
+  flex: 1 1 auto; /* Each item takes up equal space */
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 20px; /* Margin between items */
+}
+
+@media (max-width: 600px) {
+  .flex-item {
+    flex: 1 1 100%; /* Each item takes full width on smaller screens */
+  }
 }
 
 .flex-item:last-child {
