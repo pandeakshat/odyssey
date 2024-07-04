@@ -2,7 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { buttonVariants } from '@/components/ui/button'
 
-import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize} from '@/components/odysseycard'
+import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize, Mindshift, Action, Evaluate, Reminder, Failure, Canvas} from '@/components/odysseycard'
 ---
 
 <BaseLayout
@@ -24,16 +24,28 @@ import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize} from '@/com
         Carved in memory, and in isolation, yet not. <br />Poetry, stories, quotes, and images to depict it all. <br /> <br />
       </p>
       <br />
-
+      <h1> Preface </h1>
       <div class="flex-container">
         <div class="flex-item"><PreFace client:load/> </div>
+
+      </div>
+      <h1> Chapter 1 : The Beginning </h1>
+      <div class="flex-container">
         <div class="flex-item"><Begin client:load/></div>
         <div class="flex-item"><Chapterone client:load/></div>
         <div class="flex-item"><Research client:load/></div>
         <div class="flex-item"><SelfAssess client:load/></div>  
         <div class="flex-item"><Visualize client:load /></div>
+        <div class="flex-item"><Mindshift client:load/></div>
+        <div class="flex-item"><Action client:load/></div>
+        <div class="flex-item"><Evaluate client:load/></div>
+        <div class="flex-item"><Reminder client:load/></div>
       </div>
-
+      <h1> Chapter 2: Empty Canvas of a Failure </h1>
+      <div class="flex-container">
+        <div class="flex-item"><Failure client:load/></div>
+        <div class="flex-item"><Canvas client:load/></div>
+      </div>
   
       
     </div>

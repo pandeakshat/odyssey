@@ -390,15 +390,390 @@ So, the actionable steps for this stage is to learn and practice meditation, it 
 
 
 
+    export function Mindshift() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle>Chapter 1.4: Mindset Shifts </CardTitle>
+            <CardDescription>Odyssey - Akshat Pande </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src="odyssey_mindshift.png"></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle>Chapter 1.4: Mindset Shifts</DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      Mindset Shifts - <br />
+1. Embrace Change<br />
+2. Practice Self-Compassion<br />
+3. Challenge Limiting Beliefs<br />
+<br /><br />
+The stages are pretty scary and honestly, I have not started working on them properly, though the next stage is taking action so we will just brain storm the current stage and then bring all the actions later. The current and also the third stage of the research is Mindset Shifts. I love this topic, the amount of times I have told people to work on their mindset is crazy, even though I suck at them by myself and I have tried to incorporate them over-time. Moreover, there is this video on Youtube called mindshift, its a classic motivational video but, it is my favorite, the six minutes were it talks about nothing changes until you change your mind, and there is no limit to human will as long as you are able to change your mind towards a future where you can achieve it, and it does make sense to me, there are a lot of different concepts that have been discussed based on the same underlying structure. Manifestation, Law of Attraction, are the classic few that are the most famous and used that work on mindset, there also exists the idea of fake it till you make it is signaling your brain how you want your future and your present to be, which makes you to decide accordingly, and not be dreaming and only visualizing without actually taking steps towards it. The mindset shifts stage is pretty simple to talk about, difficult to act on, and extremely exhausting to continue with depending on where you stand right now. 
+<br /><br />
+The first stage is embrace change. Change is inevitable, it could be through our own actions and how we want to go forward so we make changes in our life, so voluntary changes, or it could be involuntary changes, adapting to changes in scenarios, the world making you to change your directions, acting or changing with the society, it is difficult to point out all the influences that can bring about change in a person’s journey and trajectory but it is there. So, embrace change works on the similar concept, just let it come, any change that happens voluntarily or involuntarily should not affect your trajectory by a huge margin, and it also includes incorporating changes into growth and improving your vision and actions. The beauty of life and all the free-wills of very individual clashing is you cannot map out your future step by step, you can strategize and plan, but it is all probabilities and trying for the best outcome. That is the reason it is important to embrace change and include that into your strategy, if something new turns out, see how you can include it and make most out of it, if something goes to shit, think about how you can make changes in your current plan to avoid the worst case scenario. Simple as that.
+<br /><br />
+The first stage is honestly simple for me, as I do value growth so it works out. However, the second stage is self compassion. treat yourself well, make sure you are taking care of yourself and the self talk is made up of hopeful thoughts towards yourself too, it is a foreign concept to me even though I try my best, basically when your strategy goes bad, dont make yourself a failure or a loser and just make a better strategy while talking bad to yourself the entire time like oh should have been more smart about it, why couldnt you even consider such a simple thing, so on and so forth. Self-compassion is more necessary on difficult journeys because you are on your own critic and supporter, there should be a balance in both for sure but the support should be more than the critic as you have to go further, not stay where you are right now, it is not keeping things as they are, its growing and improving, so the positive input should be more. Moreover, I am struggling with forgiving myself right now, so that is also a thing to work on, but yeah more support than criticism during the internal monologue.
+<br /><br />
+The last one, is challenging limiting beliefs, which we all have, through built up trauma or insecurities over time or just because we have not tried something or stopped adventuring the unknown over-time we just dont try, the risk aversion takes over and we dont really explore what the world has to offer, or even what we can do. All of this incorporates into limiting beliefs, even while you are working on something, the self talk can taker over and you jsut give up projects half way or stop doing them because you feel less and like its not helping anyone. I have been in that situation more times that I can remember and that is alright, it is important to embrace change and work on self-compassion also. it is good to try, and it is okay to fail, the most important thing as rocky said, was to stand up again, it does not matter how many times you fall, as long as you have the strength and courage to stand up again, you will win, maybe not at one thing, maybe not at everything, but in life, when it ends, you will be know that you never stopped trying, and maybe that is enough.
+<br /><br />
+The mindset shifts is important to keep your mind aligned with what your future holds, it builds the foundation that will take you to the end, it helps you to take actions, and not just start with them but keep on taking the actions required to keep going forward, it starts with one step but to walk and get somewhere, the steps need to keep happening and you need strength in your legs and in your mind to take the next step even if you dont know where you are going. In a similar analogy, if you are lost in the forest, you can only take steps, and its three directions, one is give up, which is no-no. The other one is to trace back where you came from, and decide the future ahead, and the last is, keep walking, if you are lost, you will be lost in the next moment too, and the moment after, but if you keep taking steps and evaluate your position, at some point, you will find yourself, not sure how it would turn out, life is unpredictable but if you are embracing change and you are your own supporter, you will find a way out of it, and even if it is end of it all, you will know you kept trying till the last moment.
+<br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="https://medium.com/@pandeakshat/odyssey-chapter-1-3-goal-setting-vision-creation-4e8cd6568b63" target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+
+    export function Action() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle>Chapter 1.5: Taking Action </CardTitle>
+            <CardDescription>Odyssey - Akshat Pande </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src="odyssey_action.png"></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle>Chapter 1.5: Taking Action</DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      Taking Action - <br />
+1. Build New Skills<br />
+2. Create New Habits<br />
+3. Network Strategically<br />
+<br /><br />
+The next step in this odyssey for me is taking action. Thought without action is well just being there, like meditation but you do not do anything once you feel refreshed, calm, and at peace. It is rewarding in its own way as you separate yourself from the flow of life and sometimes it is important to just distance yourself from the world and look at what path you are going at, reflect, and understand. But it is consider an action too, as you are choosing to do that to reflect and improve your trajectory. The only example I have in my mind is swimming? or even if it is in a boat on the ocean, if you do not take action, you have no control over your life, and you will just go with the flow, your wants or needs dont matter, you do not have a say in things, and you cant even stop properly as you have become part of a storm you have no control over at the same point, it is so easy to start escaping, action. Change, voluntary change, requires action, and a lot of other things but it does start with action. So that is what this stage is about, taking actions and a guideline on what to look for, for me.
+<br /><br />
+The first step is to build new skills, or you can also refine and improve your current skills but given i was not entirely happy about my current existence, it is more towards building new skills to find purpose, while refining what i have, as outlined in the passions. So, why focus on new skills and not just work on existing ones for improvement? Well, because your limiting beliefs and experiences are there with your existing skillset, no matter how much we want to improve sometimes, we are reminded of all our failures and it is difficult to swim through them and get to the other side. While tryin something new, taking actions can give you the initial propulsion to go, okay I can get better at things, and then use that acceleration to not just learn something new that aligns with the future you want, but also refine your other skills as you have the mindset and proof that there is improvement, and it is possible. The skills that I would go for would obviously depend on the vision I have, and it would be different for someone else. Some primary ones that are required from me is networking and adventuring. There are others that require refinement but I dont know how to network and it is a skill, i do have a lot of people I know and I am probably in network of others but it is different for something to exist by happenstance and something to be used as a skill, its same for adventuring, I have stopped enjoying what the world has to offer, so do that. I have not gone on solo trips for the longest time, and I have not even done anything remotely on my own to be honest. I am always around people and just go with what they want? what do I want though? what do i enjoy? I enjoy everything, I think. As long as other people are enjoying it, and that is just sad in its own way. So, the plan is to start adventuring. Move towards a better future, move towards something that is more rewarding and precise. But yeah, those are the skills that I know of right now, there would be more that require attention along the way, but that is for a different chapter, and a different time. 
+<br /><br />
+For now, the next stage, habits. Now it does say create new habits because I put it as my life was horrible, nothing, so I had nothing to go for, and some new habits would be necessary ofcourse. There is a popular quote from the book atomic habits, you do not rise up to your goals but you fall down to your systems/habits. It is pretty simple, at the start of a race, everyone has the same goal, to win the race, but it is the individual habits of the people involved that result in their position at the end, is your habit to work out on your endurance and strength every single day? or is it just to dream about getting to the finish line? do you take care of your body? do you diet well? do you sleep well? do you enjoy the run? or do you jsut want to win because its cool? there are a lot of different things, but if your habits are properly aligned towards your future then they work as propulsion themselves, like that was one hack i liked, i dont have any goals or vision as mentioned before, but if i build and work on habits that work as propulsion in an approximate direction, I would be improving over time, no matter the scenario. So, build new habits, make them a core part of your existence and just be disciplined with how it goes. I have ADHD so I may suck at a lot of different things but the one thing that ADHD does not affect is habits, it just makes it really difficult to build them, so. That is good? I guess.
+<br /><br />
+This last point is going to be a mixture of what skill I want to learn, network strategically. it is important though, human beings are supposed to live in community, and there is only so much we can achieve alone, and sadly it does not have to be in positive way only, network strategically does not mean, make friends with everyone, but understand your needs and your requirements and steps you need to take for a future that aligns with what you want, that is were strategy comes in, and network is just the people you contact with based on what you need, not what they need or what you can do for them, its dark, but that is the reality of life, you can be altruistic and you can do right by everyone you network with, however it should be based on strategy and the strategy should be for your life.
+<br /><br />
+All in all, it is simple, take actions, a step, a word, an e-mail, no matter how small or big, it is to start. There is another quote, motivation is a result of action, not the reason for it. You do require discipline and vision to take action, to believe in it, but not motivation and inspiration. So,  that is it, simple, clear, take action.
+<br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="https://medium.com/@pandeakshat/odyssey-chapter-1-3-goal-setting-vision-creation-4e8cd6568b63" target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+
+
+    export function Evaluate() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle>Chapter 1.6: Continual Evaluation and Refinement </CardTitle>
+            <CardDescription>Odyssey - Akshat Pande </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src="odyssey_evaluate.png"></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle>Chapter 1.6: Continual Evaluation and Refinement</DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      Continual Evaluation and Refinement - <br />
+1. Regularly Assess Progress<br />
+2. Be Adaptable<br />
+3. Embrace the Journey<br />
+<br /><br />
+Now to the last stage of our research and structure before the story actually begins. Its funny in a way that it has been so long since the first initial release of the preface and the idea to this. I still have to design so much and work on so many things before I can properly say that my odyssey begins today. It is me though and we are working on changing that, this stage is all about making sure we stick to it. Simplified into continual evaluation and refinement with assessing progress, adapting, and embracing the journey.
+<br /><br />
+To start it off, the assessing progress takes into account the habits and skills built over time and the change in scenarios. Currently, I am going through a lot of frequent changes so, over-all it should be incorporate nicely. The assessment is required so you can see how far you have come from where you started off with, and it helps in building your support and for self compassions. It is important to not let it make you complacent and stop though, the journey is endless till the last breath, and that is why habits are necessary so it keeps going on and not just oh look how far i have come, this is good enough. I do not want to stop. For this, I am building a status-window application which is gamification of the current life, I have tried it before, but we are going to improve the design and make sure it aligns with out requirements and research. 
+<br /><br />
+The next stage is be adaptable,  easy peasy, just make sure how life comes, you are able to go with it, not it becomign an obstacle that destroys everything, but you adapt and improve, incorporate the changes in to your current system to be more resilient to the future and what it could bring along. I consider myself pretty good with adapting, but it is an important skill to learn as life hits you with so many things that can make you hopeless at times, and it has done to me, been so close to giving, but it has worked out for now. I am alive, and I do think a lot of it has to do with adapting with the world and myself and my own thought process.
+<br /><br />
+Embrace the journey, enjoy it, live it, talk about it. Embracing journey may feel similar to embracing change but it is more like enjoy the ride kind of thing, it is to enjoy the process of things, to just vibe with it while you do everything else, it does not include actions, it does not talk about skills or habits or anything else, in a way it is jsut to be thankful and grateful to life and to be able to get better over-time, to just have fun, enjoy new places, or food, or people, embrace what ever the journey offers and be grateful because you are able to feel that, enjoy even the hardships because it will lead to better days, the happiness of pursuit.
+<br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="https://medium.com/@pandeakshat/odyssey-chapter-1-3-goal-setting-vision-creation-4e8cd6568b63" target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+
+
+
+    export function Reminder() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle>Chapter 1.7: Important Reminders </CardTitle>
+            <CardDescription>Odyssey - Akshat Pande </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src="odyssey_reminder.png"></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle>Chapter 1.7: Important Reminders</DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      … Redefining your life is a personal journey.<br />
+
+… A support system can be invaluable.<br />
+
+… Change doesn’t happen overnight, stay persistent.<br />
+<br /><br />
+There will be more important reminders as I go on, it is a continuous journey starting from now. However, I will learn more so i will have more reminders to keep in mind to not forget where I am and how I am. The research and structure is over, the initial one, not the first one I will have and not the last one either, new things may add on as i experience life, and some things may be removed as they feel useless at times or for what's required.
+<br /><br />
+Thank you. Let’s live.<br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="https://medium.com/@pandeakshat/odyssey-chapter-1-3-goal-setting-vision-creation-4e8cd6568b63" target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+
+
+    export function Failure() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle>The Failure (Poem) </CardTitle>
+            <CardDescription>Odyssey - Akshat Pande </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src="odyssey_failure.webp"></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle>The Failure (Poem)</DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      I consider myself a failure, <br />
+At career, at love, at life, at being alive,<br />
+A failure to keep my friend close,<br />
+A failure to maintain my soul,<br />
+I have lost everything, and i managed to lose more,<br />
+As I face death in the last moments, i despair more,<br />
+It’s alright, I don’t deserve to smile,<br />
+I don’t deserve to live, I don’t deserve to cry,<br />
+I’m not worth a chance, I’m not worth the rain,<br />
+It’s just all pain, and a hell to live in,<br />
+That’s even a blessing for this scarred cursed essence of mine.<br />
+Yet why does my heart try to scream,<br />
+Why does my mind finds hope and ideas to dream,<br />
+Why does when i lose everything, i tend to hold on to the edge,<br />
+What am I waiting for, no love, no money, nobody to choose me, no career,<br />
+I’m lost and broken, i failed and ruined more,<br />
+I’m so tired to breathe, I’m so tired to keep my eyes open at any time,<br />
+What’s the use of it all, the over the edge is welcoming me,<br />
+It’ll be so easy to end it all, and die…<br />
+Yet I can’t, everything becomes heavy and refuses to move<br />
+I don’t know what’s left in this life for me.<br />
+I still refuse to leave<br />
+I don’t care about revenge<br />
+I don’t care about everything lost in time,<br />
+I don’t have anything I want to be<br />
+Hollow empty husk, struggling to breathe but not letting out even this time…<br /><br />
+
+Do I deserve to be reborn, do I deserve another life?<br />
+I don’t know, it’s not for anyone else but for me to decide,<br />
+I do want so many things as I pass by,<br />
+A dream that lasts just one blink of an eye<br />
+Yet I’ve never worked on it properly,<br />
+Never worked on myself at any time,<br />
+Why would I? I hate myself,<br />
+My love was outsourced every single time,<br />
+Yet with all the failures and all the defeats, I still try,<br />
+Those dreams that last only a moment,<br />
+The plans that are always on my mind,<br />
+Only I never follow through as I lose to myself every time,<br />
+I am wondering what to do, speculating what to do this time,<br />
+I don’t have the right to love anymore, and now I feel more lost,<br />
+What am I? Who am I? What’s there in life?<br />
+I am so lost and it’s so empty and it hurts,<br />
+What’s there for me? What does life show me in time?<br />
+I am tired, and exhausted, and I have lost everyone who’s close,<br />
+a person of convenience, and last priority, as it is easier that way,<br />
+there is no efforts required, to keep me,<br />
+I come with no requirements, hence I am worthless, as I am free,<br />
+A failure, a loser, a lost soul, no checkpoint for me to go to,<br />
+No way for me to grow, I am unhappy, I feel distraught,<br />
+Start over again? A new campaign? New character to unlock?<br />
+Maybe a failure again, maybe I will lose it all,<br />
+I’d like to win atleast once,<br />
+I’d like to look at myself and feel sure of my own,<br />
+I’d like to stand infront of the mirror, or some video call,<br />
+and not escape my own eyes or judgement of them,<br />
+I want to talk to me and say, we have done it.<br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="https://medium.com/@pandeakshat/a-failure-cb37673f6ad3" target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+   
+
+    
+    export function Canvas() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle>Chapter 2: Empty Canvas of a Failure </CardTitle>
+            <CardDescription>Odyssey - Akshat Pande </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src="odyssey_canvas.png"></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle> Chapter 2: Empty Canvas of a Failure </DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      <br />
+
+This is the beginning of another life. The Odyssey is a new journey and honestly speaking the recent events did make me feel like a big failure. I have failed at education, career, love, family, friends, almost anything and everything. I am not horrible at it, I just am way below average, and at everything? I do pass sometimes just to barely get through but that is still a failure because it is straight across the board, so its worse right? if I had one thing going right for me, I can still go, alright, this is what I am amazing it, cream of the crop as they say. However, given how things are, I do consider myself a failure, even with mental health and physical health, its been bad. I dont want it to be like that though? I want it to be better, and I cannot win at everything, I do understand that, it does not mean I want to just gulp it down and give up entirely. I am anxious all the time, I feel alone and depressed, I even have regular suicidal tendencies, but the concept of tomorrow helps. So, where does it bring me for this odyssey, it is a new journey, self reflection, embracing change, mindset, action and evaluation, I do want it to bring a change in me that will make the life ahead better. I do not want to be a failure, I do not want to feel like this, so aligning with the quote, you can have more than you got because you can become more than you are. I want to truly believe in that now. Hence, it brings to the first story of my odyssey, over the preface, the plan, the hope, the structure, this is the first arc of mine, “Empty Canvas of a Failure”. The thought process behind it is pretty simple, I do consider myself a failure, and I am changing a lot, I am giving up on everything I was, no matter what it is, and I am starting a new, from nothing. Even if it exists online, or in my life, for myself, for my story, I am nothing, and I will start from the scratch for it all. However, as I am my own artist and writer and designer, i have a canvas, still a failure though but every stroke, every color, every new thing I add would slowly change it, would slowly add on to be more than what i was, to not be a failure, from what I am.
+<br /><br />
+From an empty canvas of a failure to a story and arc that makes me more? I dont know what it will be, I dont know what habits and skills I would like, how would I be perceived as and what is the end point of the arc, it is there though, it is beginning now. 
+<br /><br />
+For presentation of the empty canvas of a failure, I will be redesigning odyssey with a new website, new way to interact with it and better artwork and such. I will also include more visual elements into it, a way to read poetry and such. It is simple, redesign odyssey website, redesign and restructure status-window for update, new project line and queue for building up portfolio and other skills, and maybe more. I will share everything as it goes, find my own music, find my own rhythm, and find my own colors. Its scary but exciting. Happiness of Pursuit.
+<br /><br />
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="/ " target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+    
+    export function Example2() {
+      return (
+        <Card className="w-[350px]">
+          <CardHeader>
+            <CardTitle> </CardTitle>
+            <CardDescription> </CardDescription>
+          </CardHeader>
+          <CardContent>
+              
+              <div className="grid w-full items-center gap-4">
+              <img src=" "></img>
+              <Dialog>
+                  <DialogTrigger asChild>
+                      <Button variant="outline">Read</Button>
+                  </DialogTrigger>
+                  <DialogContent className="">
+                      <DialogHeader>
+                          <DialogTitle> </DialogTitle>
+                          <DialogDescription>
+                              Odyssey - Akshat Pande
+                          </DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="h-[500px] w-[444px] rounded-md border p-4 overflow-auto">
+                      
+  
+        </ScrollArea>
+   
+                      </DialogContent>
+                  </Dialog>
+                  </div>
+          </CardContent>
+          <CardFooter className="flex justify-center">
+            <a href="/ " target="_blank"> <Button>Link</Button> </a>
+          </CardFooter>
+        </Card>
+      )
+    }
+    
 
 
 
 
 
 
-
-
-    export function Example() {
+    export function Example3() {
       return (
         <Card className="w-[350px]">
           <CardHeader>
