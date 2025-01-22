@@ -1,0 +1,28 @@
+---
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { Markdown } from 'astro/components';
+
+import prefaceContent from '@/content/odyssey/preface.md';
+---
+
+<Card class="max-w-sm">
+  <CardHeader>
+    <CardTitle>{prefaceContent.title}</CardTitle>
+    <CardDescription>{prefaceContent.description}</CardDescription>
+  </CardHeader>
+  <CardContent>
+    <Dialog>
+      <DialogTrigger class="px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700">
+        Read More
+      </DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{prefaceContent.title}</DialogTitle>
+          <DialogDescription>{prefaceContent.description}</DialogDescription>
+        </DialogHeader>
+        <Markdown content={prefaceContent.content} />
+      </DialogContent>
+    </Dialog>
+  </CardContent>
+</Card>

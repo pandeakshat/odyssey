@@ -2,7 +2,9 @@
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { buttonVariants } from '@/components/ui/button'
 
-import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize, Mindshift, Action, Evaluate, Reminder, Failure, Canvas} from '@/components/odysseycard'
+import {odyssey_preface, Begin, Chapterone, Research, SelfAssess, Visualize, Mindshift, Action, Evaluate, Reminder, Failure, Canvas} from '@/components/odyssey'
+
+import * as o from '@/components/odyssey'
 ---
 
 <BaseLayout
@@ -10,41 +12,42 @@ import {PreFace, Begin, Chapterone, Research, SelfAssess, Visualize, Mindshift, 
   description="Odyssey Website - "
 >
   <section class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-    <div class="flex flex-col items-start gap-2">
-      <h1
-        class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl"
-      >
-        Odyssey by Akshat Pande.<br class="hidden sm:inline" />
-      </h1> <br />
-      <p class="text-lg text-muted-foreground">
-        A new journey, no schedule, no consistency, no plan. 
-        <br />
-        Lesson, milestones, obstacles, celebrations, events, memories, and love.
-        <br />
-        Carved in memory, and in isolation, yet not. <br />Poetry, stories, quotes, and images to depict it all. <br /> <br />
-      </p>
-      <br />
-      <h1> Preface </h1>
-      <div class="flex-container">
-        <div class="flex-item"><PreFace client:load/> </div>
+    <h1
+    class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
+  >
+    Odyssey by Akshat Pande.<br class="hidden sm:inline" />
+  </h1>
 
-      </div>
-      <h1> Chapter 1 : The Beginning </h1>
+  <p class="text-lg text-center text-muted-foreground">
+    A new journey, no schedule, no consistency, no plan. 
+    <br />
+    Lesson, milestones, obstacles, celebrations, events, memories, and love.
+    <br />
+    Carved in memory, and in isolation, yet not. <br />Poetry, stories, quotes, and images to depict it all. <br /> <br />
+  </p>
+    <div class="flex flex-col items-start gap-2">
+      <br />
       <div class="flex-container">
-        <div class="flex-item"><Begin client:load/></div>
-        <div class="flex-item"><Chapterone client:load/></div>
-        <div class="flex-item"><Research client:load/></div>
-        <div class="flex-item"><SelfAssess client:load/></div>  
-        <div class="flex-item"><Visualize client:load /></div>
-        <div class="flex-item"><Mindshift client:load/></div>
-        <div class="flex-item"><Action client:load/></div>
-        <div class="flex-item"><Evaluate client:load/></div>
-        <div class="flex-item"><Reminder client:load/></div>
+        <o.odyssey_preface client:load/>
+        <!-- <div class="flex-item"><PreFace client:load/> </div> -->
       </div>
-      <h1> Chapter 2: Empty Canvas of a Failure </h1>
+      <h1 class="text-center text-4xl underline"> Chapter 1 : The Beginning </h1>
       <div class="flex-container">
-        <div class="flex-item"><Failure client:load/></div>
-        <div class="flex-item"><Canvas client:load/></div>
+        <div class="flex-item"><o.odyssey_p_begin client:load/></div>
+        <div class="flex-item"><o.odyssey_one client:load/></div>
+        <div class="flex-item"><o.odyssey_one_research client:load/></div>
+        <div class="flex-item"><o.odyssey_one_self_assess client:load/></div>  
+        <div class="flex-item"><o.odyssey_one_visualize client:load /></div>
+        <div class="flex-item"><o.odyssey_one_mindshift client:load/></div>
+        <div class="flex-item"><o.odyssey_one_action client:load/></div>
+        <div class="flex-item"><o.odyssey_one_evaluate client:load/></div>
+        <div class="flex-item"><o.odyssey_one_reminder client:load/></div>
+      </div>
+      <h1 class="text-center text-4xl underline"> Chapter 2: Empty Canvas of a Failure </h1>
+      <div class="flex-container">
+        <div class="flex-item"><o.odyssey_p_failure client:load/></div>
+        <div class="flex-item"><o.odyssey_two_canvas client:load/></div>
+        <div class="flex-item"><o.odyssey_two_journal_one client:load/></div>
       </div>
   
       
